@@ -1,0 +1,6 @@
+{
+  "extends": [
+    "@trailheadtechnology",
+    "@trailheadtechnology/eslint-config/angular"
+  ]
+}
