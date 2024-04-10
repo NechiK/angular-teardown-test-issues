@@ -1,0 +1,13 @@
+<label>
+    Username:
+    <input name="username" type="text" [(ngModel)]="username">
+</label>
+<label>
+    Password:
+    <input name="password" type="password" [(ngModel)]="password">
+</label>
+Values:
+{{username}}
+{{password}}
+
+<button [disabled]="!username || !password">Login</button>
